@@ -1,5 +1,7 @@
 # Savvy CSS Utilities
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/savvy-css/utilities.svg)](https://greenkeeper.io/)
+
 The full collection of Savvy CSS utilities.
 
 Read more about [Savvy CSS's design principles](https://github.com/savvy-css/savvy/doc).
