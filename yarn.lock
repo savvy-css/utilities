@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@savvy-css/spacing-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/spacing-utilities/-/spacing-utilities-0.0.1.tgz#5cd73b8a1a7af5f04a552474882b33baa88f7ad0"
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
