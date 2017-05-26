@@ -2,24 +2,34 @@
   "name": "@savvy-css/utilities",
   "version": "0.0.2",
   "description": "Utilities for Savvy CSS",
-  "main": "index.css",
+  "main": "build/utilities.css",
+  "style": "build/utilities.css",
   "keywords": [
     "savvy-css",
     "savvy-css-package",
     "savvy-css-utilities",
     "css utilities"
   ],
+  "files": [
+    "build/"
+  ],
   "repository": "git@github.com:savvy-css/utilities.git",
   "author": "Brian Sipple",
   "license": "MIT",
   "scripts": {
-    "prepublish": "nsp check",
-    "release": "np"
-  },
-  "dependencies": {
-    "@savvy-css/spacing-utilities": "^0.0.1"
+    "clean": "del build/**",
+    "setup": "mkdir -p build",
+    "transform": "postcss index.css -o build/savvy.css --config postcss.config.js",
+    "transform:minify": "NODE_ENV=production postcss index.css -o build/savvy.css --config postcss.config.js",
+    "transform:watch": "postcss index.css -o build/savvy.css --config postcss.config.js -w",
+    "build": "npm run clean && npm run setup && npm run transform",
+    "build:dist": "npm run clean && npm run setup && npm run transform:minify",
+    "prepublish": "nsp check && npm run clean && npm run setup && npm run build:dist",
+    "deploy": "np"
   },
   "devDependencies": {
+    "@savvy-css/spacing-utilities": "^0.0.1",
+    "cssnano": "^3.10.0",
     "del-cli": "^1.0.0",
     "np": "^2.15.0",
     "nsp": "^2.6.3",

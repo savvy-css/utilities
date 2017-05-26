@@ -1,3 +1,8 @@
+# 0.0.3 &mdash; May 26, 2017
+
+- **[PATCH]** Move imported modules back to `dependencies` and publish `build/` dir.
+
+
 # 0.0.2 &mdash; May 26, 2017
 
 - **[PATCH]** Move imported packages from `devDependencies` to `dependencies`.
