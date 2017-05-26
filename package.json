@@ -19,9 +19,9 @@
   "scripts": {
     "clean": "del build/**",
     "setup": "mkdir -p build",
-    "transform": "postcss index.css -o build/savvy.css --config postcss.config.js",
-    "transform:minify": "NODE_ENV=production postcss index.css -o build/savvy.css --config postcss.config.js",
-    "transform:watch": "postcss index.css -o build/savvy.css --config postcss.config.js -w",
+    "transform": "postcss index.css -o build/utilities.css --config postcss.config.js",
+    "transform:minify": "NODE_ENV=production postcss index.css -o build/utilities.css --config postcss.config.js",
+    "transform:watch": "postcss index.css -o build/utilities.css --config postcss.config.js -w",
     "build": "npm run clean && npm run setup && npm run transform",
     "build:dist": "npm run clean && npm run setup && npm run transform:minify",
     "prepublish": "nsp check && npm run clean && npm run setup && npm run build:dist",
