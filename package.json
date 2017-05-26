@@ -1,6 +1,6 @@
 {
   "name": "@savvy-css/utilities",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utilities for Savvy CSS",
   "main": "build/utilities.css",
   "style": "build/utilities.css",
