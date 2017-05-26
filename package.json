@@ -16,8 +16,10 @@
     "prepublish": "nsp check",
     "release": "np"
   },
+  "dependencies": {
+    "@savvy-css/spacing-utilities": "^0.0.1"
+  },
   "devDependencies": {
-    "@savvy-css/spacing-utilities": "^0.0.1",
     "del-cli": "^1.0.0",
     "np": "^2.15.0",
     "nsp": "^2.6.3",
