@@ -2,9 +2,41 @@
 # yarn lockfile v1
 
 
+"@savvy-css/display-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/display-utilities/-/display-utilities-0.0.1.tgz#e3b177b1ec8b2c4d071a48183dabcf3a6be2b718"
+
+"@savvy-css/flex-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/flex-utilities/-/flex-utilities-0.0.1.tgz#9857a295ecc90c43b5199dd27110df4276996c36"
+
+"@savvy-css/overflow-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/overflow-utilities/-/overflow-utilities-0.0.1.tgz#53c786aeb9f0f9928ec250ac857447825c911c3e"
+
+"@savvy-css/position-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/position-utilities/-/position-utilities-0.0.1.tgz#70fd3eacfa1f9d13b841c8e9d7d146c9f5cf4cdf"
+
+"@savvy-css/sizing-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/sizing-utilities/-/sizing-utilities-0.0.1.tgz#570f673c21e297b96b6f577e1254a638a7b52851"
+
 "@savvy-css/spacing-utilities@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@savvy-css/spacing-utilities/-/spacing-utilities-0.0.1.tgz#5cd73b8a1a7af5f04a552474882b33baa88f7ad0"
+
+"@savvy-css/text-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/text-utilities/-/text-utilities-0.0.1.tgz#f4411997ed67932cf2d2c3de6e8c551068bb095b"
+
+"@savvy-css/v-align-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/v-align-utilities/-/v-align-utilities-0.0.1.tgz#1ae4dd7bfd76107c53e5687fff00c6f3f3e22c1f"
+
+"@savvy-css/z-index-utilities@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/z-index-utilities/-/z-index-utilities-0.0.1.tgz#da6bf0201fd10b45a2b4edf4dd5637629b98203c"
 
 abbrev@1:
   version "1.1.0"

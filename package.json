@@ -28,7 +28,15 @@
     "deploy": "np"
   },
   "devDependencies": {
+    "@savvy-css/display-utilities": "^0.0.1",
+    "@savvy-css/flex-utilities": "^0.0.1",
+    "@savvy-css/overflow-utilities": "^0.0.1",
+    "@savvy-css/position-utilities": "^0.0.1",
+    "@savvy-css/sizing-utilities": "^0.0.1",
     "@savvy-css/spacing-utilities": "^0.0.1",
+    "@savvy-css/text-utilities": "^0.0.1",
+    "@savvy-css/v-align-utilities": "^0.0.1",
+    "@savvy-css/z-index-utilities": "^0.0.1",
     "cssnano": "^3.10.0",
     "del-cli": "^1.0.0",
     "np": "^2.15.0",
